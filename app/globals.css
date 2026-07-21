@@ -70,6 +70,13 @@ a:hover {
   font-size: 18px;
   color: var(--ink);
 }
+.brand-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
 .brand .dot {
   width: 12px;
   height: 12px;

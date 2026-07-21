@@ -46,7 +46,6 @@ export default function Experiences() {
                   {e.role} · {e.location}
                 </div>
               </div>
-              <div className="rate">PDF to Markdown</div>
             </div>
             <p>{e.body}</p>
             <span className="tag">

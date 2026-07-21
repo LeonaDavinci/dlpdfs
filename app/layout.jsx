@@ -22,14 +22,17 @@ export const metadata = {
     "batch pdf to markdown",
     "pdf to markdown api",
   ],
-  authors: [{ name: "DLPDFs Team" }],
+  authors: [{ name: "PDF Tool Team" }],
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "PDF to MD & PDF to Markdown Converter — Fast, Private, No Software",
     description:
       "Turn PDFs into clean, editable Markdown. Also HTML to MD and batch PDFs download. No install, private, free.",
     type: "website",
     locale: "en_US",
-    siteName: "DLPDFs",
+    siteName: "PDF Tool",
   },
   twitter: {
     card: "summary_large_image",
@@ -51,7 +54,7 @@ function WebAppJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "DLPDFs PDF to MD & PDF to Markdown Converter",
+    name: "PDF Tool",
     url: "https://www.dlpdfs.com/",
     description:
       "Convert PDF to Markdown online. Preserve headings, lists, tables and code blocks. Also supports HTML to MD and batch PDFs download.",
@@ -61,7 +64,7 @@ function WebAppJsonLd() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.8",
-      ratingCount: "100",
+      ratingCount: "91",
       bestRating: "5",
     },
   };
@@ -81,8 +84,8 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="container inner">
             <a className="brand" href="/" style={{ textDecoration: "none" }}>
-              <span className="dot" />
-              DLPDFs
+              <img className="brand-logo" src="/logo.png" alt="PDF Tool" />
+              PDF Tool
             </a>
             <nav className="nav">
               <a href="/#convert">Convert</a>
@@ -102,8 +105,8 @@ export default function RootLayout({ children }) {
             <div className="footer-grid">
               <div>
                 <div className="brand" style={{ color: "#fff", marginBottom: 10 }}>
-                  <span className="dot" />
-                  DLPDFs
+                  <img className="brand-logo" src="/logo.png" alt="PDF Tool" />
+                  PDF Tool
                 </div>
                 <p style={{ fontSize: 14, maxWidth: 280 }}>
                   A fast, private way to convert PDF to Markdown and HTML to MD.
@@ -139,7 +142,7 @@ export default function RootLayout({ children }) {
               </div>
             </div>
             <div className="footer-bottom">
-              © {new Date().getFullYear()} DLPDFs. PDF to Markdown, HTML to MD and
+              © {new Date().getFullYear()} PDF Tool. PDF to Markdown, HTML to MD and
               batch PDFs download — built for clean, editable documents.
             </div>
           </div>
