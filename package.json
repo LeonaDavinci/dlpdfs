@@ -1,0 +1,19 @@
+{
+  "name": "pdf-to-markdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fast, private PDF to Markdown converter with HTML to MD support and batch PDFs download.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "pdfjs-dist": "^4.4.168",
+    "jszip": "^3.10.1"
+  }
+}
