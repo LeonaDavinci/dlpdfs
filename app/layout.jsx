@@ -84,8 +84,8 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="container inner">
             <a className="brand" href="/" style={{ textDecoration: "none" }}>
-              <img className="brand-logo" src="/logo.png" alt="PDF Tool" />
-              PDF Tool
+              <img className="brand-logo" src="/logo.png" alt="PDF to MD" />
+              PDF to MD
             </a>
             <nav className="nav">
               <a href="/#convert">Convert</a>
@@ -105,8 +105,8 @@ export default function RootLayout({ children }) {
             <div className="footer-grid">
               <div>
                 <div className="brand" style={{ color: "#fff", marginBottom: 10 }}>
-                  <img className="brand-logo" src="/logo.png" alt="PDF Tool" />
-                  PDF Tool
+                  <img className="brand-logo" src="/logo.png" alt="PDF to MD" />
+                  PDF to MD
                 </div>
                 <p style={{ fontSize: 14, maxWidth: 280 }}>
                   A fast, private way to convert PDF to Markdown and HTML to MD.
