@@ -83,14 +83,14 @@ export default function RootLayout({ children }) {
       <body>
         {/* Google Analytics (gtag.js) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YHE7KSFYWK"
+          src="https://www.googletagmanager.com/gtag/js?id=G-838HJ036QN"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-YHE7KSFYWK');`}
+  gtag('config', 'G-838HJ036QN');`}
         </Script>
         <WebAppJsonLd />
         <header className="site-header">
