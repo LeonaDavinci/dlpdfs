@@ -8,7 +8,7 @@ export const metadata = {
     template: "%s | PDF to MD & PDF to Markdown",
   },
   description:
-    "Convert PDF to Markdown online in seconds. Clean headings, lists, tables and code blocks preserved. Also convert HTML to MD and download your PDFs as Markdown in batch. Free, private, no install.",
+    "Convert PDF to Markdown online. Preserves headings, lists, tables & code. Also HTML to MD and batch PDF download. Free, private, no install.",
   keywords: [
     "pdf to markdown",
     "pdf to md",
@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     title: "PDF to MD & PDF to Markdown Converter — Fast, Private, No Software",
     description:
-      "Turn PDFs into clean, editable Markdown. Also HTML to MD and batch PDFs download. No install, private, free.",
+      "Convert PDF to Markdown online. Preserves headings, lists, tables & code. Also HTML to MD and batch PDF download. Free, private, no install.",
     type: "website",
     locale: "en_US",
     siteName: "PDF Tool",
@@ -39,7 +39,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "PDF to MD & PDF to Markdown Converter — Fast, Private, No Software",
     description:
-      "Turn PDFs into clean, editable Markdown. Also HTML to MD and batch PDFs download.",
+      "Convert PDF to Markdown online. Preserves headings, lists, tables & code. Also HTML to MD and batch PDF download. Free, private, no install.",
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
